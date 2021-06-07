@@ -130,8 +130,8 @@ body {
 .grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .grid_container div {
@@ -140,7 +140,13 @@ body {
 }
 
 .footer {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     color: rgba(255, 255, 255, 0.7)
+}
+
+@media (max-width:500px) {
+    .nav {
+        display: none;
+    }
 }
