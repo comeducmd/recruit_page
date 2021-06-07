@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./reset_css.css">
+    <title>CMD</title>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="background"></div>
+    <div class="nav">
+        <ul>
+            <li onclick="location.href='#section_top'">Top</li>
+            <li onclick="location.href='#section_about'">About</li>
+            <li onclick="location.href='#section_policy'">Policy</li>
+            <li onclick="location.href='#section_apply'">Apply</li>
+        </ul>
+    </div>
+    <div style="display: flex; justify-content:center; flex-direction: column; align-items: center; height:fit-content; scroll-behavior: smooth;">
+        <div class="container" id="section_top">
+            <div id="div_title_description">컴퓨터교육과 최고 프로그래밍 학회</div>
+            <div id="div_title_name">CMD</div>
+            <div id="div_title_recruit">서류 접수 6/8 ~ 6/13</div>
+            <div class="btn" id="btn_recruit">지원하기</div>
+        </div>
+        <div class="container" id="section_about">
+            <div class="container_title" data-aos="fade-right">About</div>
+            <div class="container_description" data-aos="fade-left">
+                CMD는 컴퓨터교육과 내의 유일한 프로그래밍 학회입니다. 
+                <br>2019년에 기존에 존재하던 C-Plus, QoL, Psycoder 3개의 학회를 CMD로 통합하여 전학년 대상 코딩 스터디를 진행하기 시작하였습니다.
+                <br>매학기 부원을 모집하며, 지원서에 따라 유동적으로 다양한 언어와 주제에 대한 스터디를 운영하고 있습니다. 
+                <br>스터디를 통해 갈고닦은 지식을 토대로 부원간 팀을 꾸려 프로젝트를 진행하고 실전 경험을 기르도록 하는 것이 학회 운영 목적입니다.
+            </div>
+            <div class="btn" id="btn_github" data-aos="flip-left" onclick="location.href='https://github.com/comeducmd'">Github 보러가기</div>
+            <div class="btn" id="btn_notion" data-aos="flip-right" onclick="location.href='https://www.notion.so/seojinseojin/2020-CMD-9bcadb72e06840b69548005e24466d66'">Notion 보러가기</div>
+        </div>
+        <div class="container" id="section_policy">
+            <div class="container_title" data-aos="fade-left">Policy</div>
+            <div class="container_description" data-aos="fade-right"> 
+                CMD는 부원들의 장기적인 프로젝트 몰입을 장려합니다.
+                <br>2021년도 2학기의 경우, 학생 장려 정책을 도입하여 매 주차 목표를 성실히 달성한 조에 한해 누적 상금을 부여할 예정입니다.
+                <br>프로젝트 설계 초에 현실적이면서도 도전적인 주차별 실행 목표를 세우고, 해당 목표를 달성하기 위해 매주 시간을 투자하여 프로젝트를 완성하도록 장려하기 위해 새로 고안된 정책입니다.
+            </div>
+        </div>
+        <div class="container" id="section_apply">
+            <div class="container_title" data-aos="fade-left">Apply</div>
+            <div class="container_description" data-aos="fade-right">
+                CMD의 인재상은 다음의 세 요소를 두루 갖춘 인재입니다.
+                <div class="grid_container">
+                    <div style="border-right: 1px solid rgba(255, 255, 255, 0.5);">코딩 사랑</div>
+                    <div style="border-right: 1px solid rgba(255, 255, 255, 0.5);">열정과 끈기</div>
+                    <div>소통과 협업</div>
+                </div>
+                위의 역량을 바탕으로 컴퓨터교육과 선·후배·동기 간 동반 성장을 이루실 새 학회원을 모집합니다.
+                <br>모집 관련 문의사항은 20학번 김동호, 김혜성, 방건우, 정소연, 허민석 학우에게 문의하시기 바랍니다.
+            </div>
+            <div class="btn" onclick="location.href='#section_top'">지원하기</div>
+        </div>
+        <div class="footer"> 
+            Made by <a href="https://github.com/SeojinSeojin">3년차 CMD 김서진</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
