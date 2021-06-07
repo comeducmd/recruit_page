@@ -145,8 +145,20 @@ body {
     color: rgba(255, 255, 255, 0.7)
 }
 
+#div_title_mobile {
+    display: none;
+}
+
 @media (max-width:500px) {
     .nav {
         display: none;
+    }
+    #background {
+        animation: none;
+    }
+    #div_title_mobile {
+        display: block;
+        margin-top: 2rem;
+        color: rgb(184, 118, 118);
     }
 }
